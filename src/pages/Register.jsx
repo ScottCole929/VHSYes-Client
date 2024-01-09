@@ -42,7 +42,6 @@ export const Register = () => {
         state,
         zip_code,
         bio,
-        profile_img_url
       }),
       headers: {
         "Content-Type": "application/json",
@@ -60,7 +59,7 @@ export const Register = () => {
   };
 
   return (
-    <main className="container--login">
+    <main className="container--login font-vhs text-2xl">
       <dialog className="dialog dialog--auth" ref={existDialog}>
         <div>User does not exist</div>
         <button
@@ -73,7 +72,7 @@ export const Register = () => {
 
       <section>
         <form className="form--login" onSubmit={handleRegister}>
-          <h1 className="text-4xl mt-7 mb-3">V-H-YES!</h1>
+          <h1 className="text-9xl mt-7 mb-3">V-H-YES!</h1>
           <h2 className="text-xl mb-10">Register new account</h2>
           <fieldset className="mb-4">
             <label htmlFor="firstName"> First Name </label>
