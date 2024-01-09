@@ -1,10 +1,25 @@
 .navbar {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: center;
+    background-color: grey
 }
 
 .navbar__item {
-    flex-basis: 20%;
-    list-style-type: none;
+    margin: 0 5em;
+    padding: 0.5em 1em;
+    border: 4px solid darkblue;
+    border-radius: 0.25rem;
+}
+
+.navbar-button {
+    text-decoration: none;
+    color: inherit;
+}
+
+.delete-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
 }

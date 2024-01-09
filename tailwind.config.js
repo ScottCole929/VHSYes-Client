@@ -8,6 +8,12 @@ export default {
     extend: {
       fontFamily: {
         'vhs': ['Lester Bold', 'sans-serif']
+      },
+      backgroundImage: {
+        'background-pattern': "url('src/assets/vhscollection.jpeg')",
+      },
+      backgroundRepeat: {
+        'repeat': 'repeat',
       }
     },
   },

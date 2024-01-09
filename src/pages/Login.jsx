@@ -42,14 +42,15 @@ export const Login = () => {
       </dialog>
 
       <section>
-        <form className="form--login" onSubmit={handleLogin}>
-          <h1 className="text-4xl mt-7 mb-3">V-H-YES!</h1>
-          <div>
+        <form className="bg-blue-900 bg-repeat min-h-screen w-full" onSubmit={handleLogin}>
+          <div></div>
+          <h1 className="mt-7 mb-3 font-vhs text-8xl font-vhs font-semibold text-9xl text-center mb-9 shadow-lg">V-H-YES!</h1>
+          <div className="font-vhs text-3xl">
             As streaming media continues to grow, physical media is becoming more and more difficult to find. V-H-YES takes you back to the good old days of the original physical movie media: VHS cassette tapes!
-            For $49/year through Venmo, sign up and you can join our rental service where you can rent one tape at a time. The tape will ship to your mailbox in a resealable, returnable mailer. You just send it back whenever you're ready to get another tape.
+            For a reasonable annual fee, sign up and you can join our rental service where you can rent one tape at a time. The tape will ship to your mailbox in a resealable, returnable mailer. You just send it back whenever you're ready to get another tape.
             Come take a walk down memory lane, fire up your VCR, and check out all your favorite classics!
           </div>
-          <h2 className="text-xl mb-10">Please sign in</h2>
+          <h2 className="text-xl my-20 mb-6">Please sign in</h2>
           <fieldset className="mb-4">
             <label htmlFor="inputEmail"> Email </label>
             <input
@@ -77,7 +78,7 @@ export const Login = () => {
           <fieldset>
             <button
               type="submit"
-              className="button p-3 rounded-md bg-blue-800 text-blue-100"
+              className="button p-3 rounded-md bg-blue-500 text-blue-100"
             >
               Sign in
             </button>
